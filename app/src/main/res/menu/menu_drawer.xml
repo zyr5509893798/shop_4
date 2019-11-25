@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="个人主页" />
+        <item
+            android:id="@+id/nav_myshop"
+            android:title="我的店铺" />
+        <item
+            android:id="@+id/nav_history"
+            android:title="历史订单" />
+        <item
+            android:id="@+id/nav_leave"
+            android:title="退出登录" />
+    </group>
+
+    <item android:title="change">
+        <menu>
+            <item
+                android:id="@+id/nav_change"
+                android:title="修改信息" />
+            <item
+                android:id="@+id/nav_newshop"
+                android:title="新建店铺" />
+        </menu>
+    </item>
+
+</menu>

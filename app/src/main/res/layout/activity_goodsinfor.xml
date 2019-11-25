@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".goodsinfor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  "
+            android:textSize="11sp"
+            android:layout_weight="1">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品详情"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_weight="4">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  "
+            android:textSize="11sp"
+            android:layout_weight="1">
+        </TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/shopcar1"
+            android:layout_centerInParent="true">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="价格："
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/goodsinfor_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="199"
+            android:textSize="22sp"
+            android:textColor="#CC3300">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 元"
+            android:textSize="15sp">
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/goodsinfor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="就重复计费侧居然发proper v"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="15sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介："
+        android:textColor="@color/cardview_dark_background">
+    </TextView>
+
+    <TextView
+        android:id="@+id/goodsinfor_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="iu日从i我日绒鄂送i蹙非u他v哦ii热哦从服务热水泡软女哦品味viu那天图热哦i女同事挪体日那天">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="来自店铺："
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/goodsinfor_shopname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="126"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15sp">
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/buy_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC3300"
+        android:text="立即购买"
+        android:textColor="#FFFFFF">
+    </Button>
+
+</LinearLayout>

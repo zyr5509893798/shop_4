@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mygoods"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  "
+            android:textSize="11sp"
+            android:layout_weight="1">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的商品"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_weight="4">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  "
+            android:textSize="11sp"
+            android:layout_weight="1">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewMyGoods"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_newgoods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新建商品"
+        android:layout_weight="1"
+        android:background="#FFFFFF">
+    </Button>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="1sp">
+</TextView>
+
+    <Button
+        android:id="@+id/btn_shopchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改店铺信息"
+        android:layout_weight="1"
+        android:background="#FFFFFF">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="1sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_shopdel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除店铺"
+        android:layout_weight="1"
+        android:background="#FFFFFF">
+    </Button>
+
+</LinearLayout>

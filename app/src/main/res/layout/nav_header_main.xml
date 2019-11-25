@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="#CC3300"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:id="@+id/header"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="72dp"
+        android:layout_height="74dp"
+        android:background="@drawable/shopcar1"
+        android:contentDescription="shop"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/drawer_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="用户名"
+        android:textColor="#FFFFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/drawer_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简介简介简介"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

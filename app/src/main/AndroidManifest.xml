@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shop_4">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".goodscha"></activity>
+        <activity android:name=".goodsdel" />
+        <activity android:name=".historyorder" />
+        <activity android:name=".order" />
+        <activity android:name=".goodsinfor" />
+        <activity android:name=".shopchange" />
+        <activity
+            android:name=".newgoods"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mygoods"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".myshop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newshop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".allgoods"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".change"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".drawer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".enrol"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
